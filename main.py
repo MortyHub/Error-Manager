@@ -63,6 +63,3 @@ class Error:
 
 def colored(r, g, b, text):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(r, g, b, text))
-
-Error1 = Error("Sus", "ee", "Error")
-Error1.printError()
